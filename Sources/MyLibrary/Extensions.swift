@@ -7,8 +7,9 @@
 
 import Foundation
 
-extension String {
+public extension String {
     var isValid: Bool {
         return self.count > 3
     }
 }
+
